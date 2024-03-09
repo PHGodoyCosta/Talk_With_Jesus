@@ -1,5 +1,3 @@
-import GeneralRouter from './GeneralRoutes'
+import GeneralRouter from "./GeneralRoutes";
 
-export {
-    GeneralRouter
-}
+export { GeneralRouter };

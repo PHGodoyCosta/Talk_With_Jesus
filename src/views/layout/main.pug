@@ -1,0 +1,22 @@
+
+include ./navbar
+include ./footer
+
+doctype html
+html(prefix="og: https://ogp.me/ns#" lang="pt-BR")
+    head
+        block head
+            <meta charset="UTF-8" />
+            <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+            include ./head/head-libraries
+    body
+        +navbarBlock()
+
+        block content            
+
+        +footerBlock()
+
+        block scripts
+            //- Bootstrap v5.3.2
+            <script src="/assets/plugins/boostrap-5.3.2/js/bootstrap.bundle.min.js"></script>

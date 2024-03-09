@@ -1,12 +1,13 @@
 :root {
-    --orange: #FBBA72;
-    --semi-orange: #CA5310;
-    --dark-orange: #BB4D00;
-    --red: #8F250C;
-    --dark-red: #691E06;
+    --orange: #fbba72;
+    --semi-orange: #ca5310;
+    --dark-orange: #bb4d00;
+    --red: #8f250c;
+    --dark-red: #691e06;
 }
 
-html, body {
+html,
+body {
     width: 100%;
     height: 100%;
     padding: 0;
@@ -16,4 +17,43 @@ html, body {
 
 body {
     background-color: var(--orange);
+}
+
+.chat {
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    width: 100%;
+    min-height: 500px;
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+
+.falas {
+    margin: auto;
+    padding-right: 10px;
+    padding-left: 10px;
+    width: 40%;
+    height: 500px;
+    /* background-color: rgb(207, 207, 207); */
+}
+
+.fala {
+    width: fit-content;
+    padding: 7px;
+    color: white;
+    border-radius: 10px;
+}
+
+.group-fala {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.caracter {
+    font-weight: bold;
+    font-size: 1.1em;
+    margin-bottom: 5px;
+    padding-top: 5px;
 }
